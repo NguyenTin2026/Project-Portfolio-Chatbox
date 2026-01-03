@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Face Recognition",
+    "desc": "Real-time face recognition using OpenCV",
+    "img": "Images/snapshot_1759425843.jpg",
+    "demo": "https://github.com/NguyenTin2026/Mini-Project-Computer-Vision-in-Deep-Learning.git",
+    "video": "videos/Screen Recording 2025-10-02 132041.mp4"
+  },
+  {
+    "title": "YOLO Object Detection",
+    "desc": "Real-time object detection using YOLOv5",
+    "img": "Images/download.png",
+    "demo": "https://github.com/NguyenTin2026/Mini-Project-Computer-Vision-in-Deep-Learning.git",
+    "video": "videos/20251025195545254.mp4"
+  },
+  
+  {
+    "title": "Create a Web Application By Using Streamlit",
+    "desc": "Application of Face Detection and Object detection using streamlit to demo detecting image, video, and webcam",
+    "img": "Screenshot 2025-11-29 211528.png",
+    "demo": "https://object-detection-people-things-tintindo.streamlit.app/",
+    "video": "Recording 2025-11-29 211119.mp4"
+  },
+
+  {
+    "title": "Data Analysis Dashboard",
+    "desc": "Large-scale data cleaning, processing, and visualization",
+    "img": "Images/Image Linear Regression.png",
+    "demo": "https://github.com/NguyenTin2026/Data-Science-Tutorial-Step-By-Step-.git",
+    "video": "videos/Recording 2025-11-18 211143.mp4"
+  }
+]

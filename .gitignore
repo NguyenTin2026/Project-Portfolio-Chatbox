@@ -1,0 +1,177 @@
+############################
+# 0) OS / Editor
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# 1) Environment / Secrets
+############################
+.env
+.env.*
+!.env.example
+!.env.template
+
+secrets.*
+secret.*
+*.secret
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+
+# Common secret config files
+config.local.*
+config.private.*
+settings.local.*
+settings.private.*
+
+############################
+# 2) API keys / Credentials dumps
+############################
+*apikey*
+*api_key*
+*token*
+*access_token*
+*refresh_token*
+*credential*
+*credentials*
+*service-account*
+*service_account*
+*gcp-sa*
+*aws-credentials*
+*google-credentials*
+*openai*
+*anthropic*
+*huggingface*
+*pinecone*
+*supabase*
+*firebase*
+
+############################
+# 3) Logs / Debug outputs
+############################
+logs/
+log/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.pid.lock
+
+############################
+# 4) Runtime storage / user data (chat history, uploads, caches)
+############################
+data/private/
+data/user/
+data/users/
+data/uploads/
+uploads/
+tmp/
+temp/
+cache/
+.caches/
+storage/
+sessions/
+session/
+history/
+chat_history/
+conversations/
+transcripts/
+
+############################
+# 5) Databases / dumps
+############################
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.bak
+*.backup
+
+############################
+# 6) Python
+############################
+__pycache__/
+*.py[cod]
+*.pyd
+
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+############################
+# 7) Node / Frontend build
+############################
+node_modules/
+bower_components/
+.pnpm-store/
+.pnpm-debug.log*
+
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+
+# Vite
+.vite/
+
+############################
+# 8) PHP (contact.php related)
+############################
+# If you keep a local-only config file for mail/keys, ignore it:
+config.php
+config.local.php
+mail.config.php
+mail.config.local.php
+
+############################
+# 9) Cloud / IaC local state
+############################
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# AWS / SAM / CDK
+.aws/
+cdk.out/
+.sam/
+
+############################
+# 10) Security scanners / reports (optional)
+############################
+reports/
+security-reports/
+*.sarif

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Contact Nguyen Tin Tin Do — Connect for AI, Machine Learning, Computer Vision, and Data Science collaborations." />
+  <meta name="keywords" content="AI, Machine Learning, Computer Vision, Data Science, Contact, Nguyen Tin Tin Do" />
+  <meta name="author" content="Nguyen Tin Tin Do" />
+
+  <title>Contact - Nguyen Tin Tin Do</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .feedback-tab {
+      max-width: 500px;
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      animation: fadeIn 0.5s ease forwards;
+      display: none;
+    }
+
+    .success {
+      background: #00bcd4;
+    }
+
+    .error {
+      background: #e74c3c;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">Contact</h1>
+
+      <nav class="navbar">
+        <a href="index.html" class="btn">Home</a>
+        <a href="about.html" class="btn">About</a>
+        <a href="work.html" class="btn">Experience</a>
+        <a href="education.html" class="btn">Education</a>
+        <a href="projects.html" class="btn">Projects</a>
+        <a href="contact.html" class="btn active">Contact</a>
+      </nav>
+
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="content fade-in">
+      <h2 class="section-title">📬 Get in Touch</h2>
+      <p class="section-subtitle">
+        Open to opportunities, collaborations, and conversations related to
+        <b>AI, Machine Learning, Computer Vision, and Data Science</b>.
+      </p>
+
+      <div class="contact-grid">
+
+        <div class="contact-info card">
+          <h3>Contact Information</h3>
+
+          <ul class="contact-list">
+            <li>📧 <span>Email:</span> <a href="mailto:ndo1@drew.edu">ndo1@drew.edu</a></li>
+            <li>💼 <span>LinkedIn:</span>
+              <a href="https://linkedin.com/in/nguyen-tin-tin-do" target="_blank">
+                linkedin.com/in/nguyen-tin-tin-do
+              </a>
+            </li>
+            <li>🐙 <span>GitHub:</span>
+              <a href="https://github.com/NguyenTin" target="_blank">github.com/NguyenTin</a>
+            </li>
+            <li>🎓 <span>Handshake:</span>
+              <a href="https://drew.joinhandshake.com/profiles/tintin" target="_blank">
+                drew.joinhandshake.com/profiles/tintin
+              </a>
+            </li>
+            <li>📱 <span>Phone:</span> (+1) 281-486-4220</li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="contact-form card" method="POST" action="contact.php">
+          <h3>Send a Message</h3>
+
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <!-- CSRF Token -->
+          <input type="hidden" name="csrf_token" id="csrf_token">
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div id="feedback-tab" class="feedback-tab"></div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nguyen Tin Tin Do — Portfolio · Artificial Intelligence & Deep Learning</p>
+  </footer>
+
+  <!-- LOAD SCRIPT AFTER HTML -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
