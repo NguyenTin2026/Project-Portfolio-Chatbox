@@ -59,31 +59,24 @@ That way, I can add/edit projects in one place and keep the UI consistent. ✅
 ├── package.json
 ├── package-lock.json
 └── .gitignore
+
 How to run it locally 🚀
 1) Quick way (static preview) 🌐
-
 If you only need to preview the website:
-
 Open index.html directly in a browser, or run a simple local server:
-
 python -m http.server 8000
 
-
 Then visit:
-
 http://localhost:8000 ✅
 
 2) If you need PHP working (contact form) 🐘
-
 Run a local PHP server from the project folder:
-
 php -S localhost:8080
 
-
 Then visit:
-
 http://localhost:8080 ✅
 
 3) Clone the repo 📥
 git clone https://github.com/<your-username>/NguyenTin2026.git
 cd NguyenTin2026
+______________________________________________________________________________________________________________________________End______________________________________________________________________________________________________________________________
