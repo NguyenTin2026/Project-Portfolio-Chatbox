@@ -40,7 +40,7 @@ That way, I can add/edit projects in one place and keep the UI consistent. ✅
 ## Folder / file layout 🗃️
 
 ```text
-.
+
 ├── index.html
 ├── about.html
 ├── education.html
