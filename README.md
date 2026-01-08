@@ -1,4 +1,4 @@
-# NguyenTin2026 — My Portfolio Website Integrated (with Chatbox) 💼💬
+# NguyenTin2026 — My Portfolio Website Integrated (with Chatbox) 💼
 
 This repo contains my personal portfolio website. I built it with plain **HTML, CSS, and JavaScript**, and I added a **chatbox** so visitors can interact with the site instead of only reading static pages. The goal is simple: make it easy for someone to understand who I am, what I’ve built, and how to contact me. ✨
 
