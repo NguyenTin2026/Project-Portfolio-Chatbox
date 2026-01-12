@@ -79,3 +79,5 @@ http://localhost:8080 ✅
 3) Clone the repo 📥
 git clone https://github.com/<your-username>/NguyenTin2026.git
 cd NguyenTin2026
+
+![Alt](https://repobeats.axiom.co/api/embed/0669df06effc7d3a51f33af27173d88f26e7c291.svg "Repobeats analytics image")
