@@ -1,3 +1,4 @@
+![Alt](https://repobeats.axiom.co/api/embed/0669df06effc7d3a51f33af27173d88f26e7c291.svg "Repobeats analytics image")
 # NguyenTin2026 — My Portfolio Website Integrated (with Chatbox AI + NLWeb Protocol) 💼
 
 This repo contains my personal portfolio website. I built it with plain **HTML, CSS, and JavaScript**, and I added a **chatbox** so visitors can interact with the site instead of only reading static pages. The goal is simple: make it easy for someone to understand who I am, what I’ve built, and how to contact me. ✨
